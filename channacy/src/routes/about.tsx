@@ -1,9 +1,9 @@
 export default function About() {
     return (
-        <div class="flex-1 grow text-gray-700py-10 text-left o-20">
+        <div class="flex-1 grow text-gray-700 py-10 text-left o-20">
             <h1 class="max-4-xs text-2xl mt-8 mb-4 font-semibold">🤓 About</h1>
             <div class="flex gap-2">
-                <img class="max-w-180 max-h-60" src="assets/pho tography.jpg"/>
+                <img class="max-w-180 max-h-60" src="assets/photography.jpg"/>
             </div>
             <ul>
                 <li class="text-xl my-4">

@@ -4,9 +4,6 @@ const Navbar = () => {
   return (
     <>
       <div class="navbar">
-      <h1 class="text-3xl font-bold underline">
-      Hello world!
-    </h1>
         <ul>
           <li>
             <a class="header" href="/">
@@ -20,16 +17,16 @@ const Navbar = () => {
             <a class="header" href="/projects">
               Projects
             </a>
-            <a class="subheader" href="#">
+            <a class="subheader" href="/web">
               Web
             </a>
-            <a class="subheader" href="#">
+            <a class="subheader" href="/ai">
               AI/ML
             </a>
-            <a class="subheader" href="#">
+            <a class="subheader" href="/mobile">
               Mobile
             </a>
-            <a class="subheader" href="#">
+            <a class="subheader" href="/other">
               Other
             </a>
           </li>
@@ -41,7 +38,7 @@ const Navbar = () => {
               Courses
             </a>
           </li>
-          <li>
+          {/* <li>
             <a class="header" href="#">
               Experience
             </a>
@@ -54,15 +51,15 @@ const Navbar = () => {
             <a class="subheader" href="#">
               Research
             </a>
-          </li>
-          <li>
+          </li> */}
+          {/* <li>
             <a class="header" href="#">
               Blog
             </a>
             <a class="subheader" href="#">
               Sept 2024
             </a>
-          </li>
+          </li> */}
           <li>
             <a class="header" href="#">
               Contact

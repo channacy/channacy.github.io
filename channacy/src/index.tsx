@@ -9,6 +9,10 @@ import About from './routes/about';
 import Projects from './routes/projects';
 import Courses from './routes/courses';
 import Education from './routes/education';
+import Web from './routes/web';
+import Mobile from './routes/mobile';
+import Other from './routes/other';
+import AI from './routes/ai';
 const root = document.getElementById('root')
 
 render(() => <Router root={App}>
@@ -17,4 +21,8 @@ render(() => <Router root={App}>
     <Route path="/projects" component={Projects} />
     <Route path="/courses" component={Courses} />
     <Route path="/education" component={Education} />
+    <Route path="/web" component={Web} />
+    <Route path="/mobile" component={Mobile} />
+    <Route path="/other" component={Other} />
+    <Route path="/ai" component={AI} />
 </Router>, root!)

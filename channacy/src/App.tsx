@@ -7,7 +7,7 @@ function App(props: any) {
     <>
     <div class="flex">
      <Navbar/>
-     <div class="flex-1">
+     <div class="flex-1 h-screen overflow-y-scroll custom-scroll">
           <Suspense>{props.children}</Suspense>
         </div>
      </div>
