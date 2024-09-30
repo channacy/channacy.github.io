@@ -2,8 +2,6 @@ export default function Courses() {
     return (
         <div class="flex-1 grow text-gray-900 py-10 text-left">
            <h1 class="max-4-xs text-4xl my-8 font-medium">📖 Undergraduate Courses</h1>
-           <p class="my-4 ">I am a current junior ence and max-w-72</p>
-
             <table class="table-auto full rounded-t-md">
                 <thead>
                     <tr class="">
