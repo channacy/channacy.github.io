@@ -22,6 +22,7 @@ export default function AI() {
                 <div class="bg-white">
                     <div class="flex items-center gap-1 bg-white">
                         <h1 class="bg-white text-lg my-4 font-semibold">Taylor Swift Lyric Analysis</h1>
+                        <a href="https://github.com/channacy/Taylor-Swift-Lyrics-Analysis" target="_blank"><img class="h-5 w-5" src="assets/github.png" /></a>
                     </div>
                     <p class="bg-white">Looking at past lyrics to predict next album</p>
                     <div class="bg-white flex gap-2 mt-2">
