@@ -2,7 +2,7 @@ export default function Web() {
     return (
         <div class="w-2/3 text-gray-900	py-10 text-left">
             <h1 class="max-4-xs text-4xl my-4 font-semibold">💻 Web Apps</h1>
-            <p>Mainly experienced in JavaScript and its frameworks and currently learning Ruby on Rails and working on ongoing web apps</p>
+            <p>Mainly experienced in JavaScript and its frameworks and currently learning GraphQL, Angular, Ruby on Rails and working on ongoing web apps</p>
             <div class="bg-white flex p-4 my-2 items-center justify-between rounded-md gap-4">
                 {/* <img class="w-16 h-16 rounded-md object-cover" src="assets/discordbot.jpg" /> */}
                 <div class="bg-white">
@@ -18,7 +18,6 @@ export default function Web() {
                 </div>
             </div>
 
-            
             <div class="bg-white flex p-4 my-2 items-center justify-between rounded-md gap-4">
                 <div class="bg-white">
                     <div class="flex items-center gap-1 bg-white">
@@ -36,7 +35,7 @@ export default function Web() {
             <div class="bg-white flex p-4 my-2 items-center justify-between rounded-md gap-4">
                 <div class="bg-white">
                     <div class="flex items-center gap-1 bg-white">
-                        <h1 class="bg-white text-lg my-4 font-semibold">Lively Tweet</h1>
+                        <h1 class="bg-white text-lg my-4 font-semibold">LivelyTweet</h1>
                         <a href="https://github.com/channacy/LivelyTweet" target="_blank"><img class="h-5 w-5" src="assets/github.png" /></a>
                     </div>
                     <p class="bg-white">Web app for seeing if your tweet is positive, will go viral and most likely location of poster</p>

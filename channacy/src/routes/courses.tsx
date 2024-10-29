@@ -13,11 +13,6 @@ export default function Courses() {
                 <tbody>
                     <tr class="w-full">
                         <td class="px-4">Junior (Fall '24)</td>
-                        <td class="px-4"><a href="https://catalog.drexel.edu/search/?P=CS%20387" target="_blank"><u>CS 387</u></a></td>
-                        <td class="px-4">Game AI Development</td>
-                    </tr>
-                    <tr class="w-full">
-                        <td class="px-4">Junior (Fall '24)</td>
                         <td class="px-4"><a href="https://catalog.drexel.edu/search/?P=CS%20457" target="_blank"><u>CS 457</u></a></td>
                         <td class="px-4">Data Structures and Algorithms I</td>
                     </tr>
